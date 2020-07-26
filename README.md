@@ -1,29 +1,12 @@
 # svgjs-demos
 
-## Project setup
-```
-yarn install
-```
+## 项目简介
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+svg.js在Vue项目中的实际使用Demo~
 
-### Compiles and minifies for production
+## 本地启动
 ```
-yarn run build
-```
+* yarn install
 
-### Run your tests
+* yarn run serve
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
