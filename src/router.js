@@ -8,12 +8,17 @@ export default new Router({
   routes: [{
     path: '/',
     name: 'indexPage',
-    component: () => import('./views/simpleSvg/index.vue')
+    component: () => import('./views/guide/index.vue')
   },
   {
-    path: '/complexSvg',
-    name: 'complexSvg',
-    component: () => import('./views/complexSvg/index.vue')
+    path: '/basicShape',
+    name: 'basicShape',
+    component: () => import('./views/basicShape/index.vue')
+  },
+  {
+    path: '/animate',
+    name: 'animateDemo',
+    component: () => import('./views/animateDemo/index.vue')
   }
   ]
 })
